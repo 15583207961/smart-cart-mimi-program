@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#0A7AFF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "榜单",
+      "iconPath": "images/bars/ph.png",
+      "selectedIconPath": "images/bars/ph_pressed.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "管理",
+      "iconPath": "images/bars/gl.png",
+      "selectedIconPath": "images/bars/gl_pressed.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

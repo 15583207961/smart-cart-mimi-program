@@ -1,0 +1,70 @@
+<view class="index-top">
+  <image src="https://singlestep.cn/baiducar/img/xcxbg.png" class="index-top-img"></image>
+  <view class="index-top-text1">2022西部选拔赛 </view>
+  <view class="index-top-text2">2022全国大学生智能汽车竞赛 </view>
+  <view class="index-top-text3">
+百度智慧交通赛项 </view>
+</view>
+
+<!-- 展示列表 -->
+
+<view class="index-show-container">
+  <view class="index-show-rank">
+      <view class="rack-image">
+        <view class="rack-2">
+          <image class="crown_2" src="https://singlestep.cn/baiducar/img/2.png"></image>
+          <image src="https://singlestep.cn/baiducar/logo/太原学院.png"></image>
+        </view>
+        <view class="rack-1">
+          <image class="crown_1" src="https://singlestep.cn/baiducar/img/1.png"></image>
+          <image src="https://singlestep.cn/baiducar/logo/太原学院.png"></image>
+
+        </view>
+        <view class="rack-3">
+          
+          <image src="https://singlestep.cn/baiducar/logo/太原学院.png"></image>
+          <image class="crown_2" src="https://singlestep.cn/baiducar/img/3.png"></image>
+
+        </view>
+     
+      
+      </view>
+
+      <view class="rack-school-name">
+        <view class="scholl-name-2">成都锦城学院</view>
+        <view class="scholl-name-1">电子科技大学</view>
+        <view class="scholl-name-3">四川大学</view>
+      </view>
+  </view>
+  <view class="index-title">
+    <view class="rarking">排名</view>
+    <view class="collage">院校 | 队伍</view>
+    <view class="score">
+      <view>第一轮</view>
+      <view>第二轮</view>
+      <view>总分</view>
+    </view>
+  </view>
+  <view class="container-rank">
+  
+    <view class="index-rack-item" wx:for="{[0,0,0,0,0,0,0,0,0,0]}">
+    <view class="rarking">1</view>
+    <view class="collage">
+      <image src="https://singlestep.cn/baiducar/logo/太原学院.png" class="scholl-icon"></image>
+      <view class="team-info">
+        <view class="scholl-name-rank">
+          成都锦城学院
+        </view>
+        <view class="team-name">畅想车队一队</view>
+      </view>
+    </view>
+    <view class="score">
+      <view>90</view>
+      <view>30</view>
+      <view>120</view>
+    </view>
+  </view>
+  <view class="padingg"></view>
+  </view>
+  
+</view>

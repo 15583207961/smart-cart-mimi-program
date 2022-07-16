@@ -1,0 +1,177 @@
+page{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.index-top{
+  width: 100vw;
+  position: relative;
+  font-family: PingFangSC-Semibold;
+font-size: 40rpx;
+font-weight: normal;
+color: rgba(255, 255, 255, 0.9);
+text-align: center;
+}
+.index-top-text1{
+  position: absolute;
+  width: 100%;
+  top: 99rpx;
+}
+.index-top-text2{
+  position: absolute;
+  width: 100%;
+  top: 168rpx;
+}
+.index-top-text3{
+  position: absolute;
+  width: 100%;
+  top: 250rpx;
+  font-size: 24rpx;
+}
+.index-top-img{
+  height: 456rpx;
+  width: 860rpx;
+  object-fit: fill;
+}
+.index-show-container{
+    position: absolute;
+    width: 100vw;
+    top: 422rpx;
+    background-color: white;
+    border-radius: 16rpx 16rpx 0 0 ;
+    height: 400rpx;
+}
+.index-show-rank{
+
+}
+
+.rack-image{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-top: -70rpx;
+}
+.rack-2,.rack-1,.rack-3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scholl-name{
+  margin-top: 30rpx;
+}
+.rack-2 image{
+  width: 104rpx;
+  height: 104rpx;
+  object-fit: fill;
+}
+.rack-1 image{
+  width: 132rpx;
+  height: 132rpx;
+  object-fit: fill;
+}
+.rack-3 image{
+  width: 104rpx;
+  height: 104rpx;
+
+}
+.crown_2{
+  width: 40rpx !important;
+  height: 40rpx !important;
+  position: absolute;
+  top: -35rpx;
+}
+.crown_1{
+  position: absolute;
+  width: 50rpx !important;
+  height: 50rpx !important;
+  object-fit: fill;
+  top: -45rpx;
+}
+
+
+.rack-school-name{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-top: 18rpx;
+  padding: 0 44rpx;
+}
+.scholl-name-2,.scholl-name-3,.scholl-name-1{
+  flex: 1;
+  text-align: center;
+  font-size: 24rpx;
+}
+.scholl-name-1{
+  font-size: 28rpx;
+}
+.index-show-rank{
+  padding-bottom: 18rpx;
+  border-bottom: 1rpx #979797 solid ;
+}
+.index-title{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 24rpx;
+  font-size: 28rpx;
+  color: #181818;
+  background: #FFFFFF;
+box-shadow: 0rpx 8rpx 12rpx -8rpx rgba(206, 206, 206, 0.5);
+}
+.collage{
+  display: flex;
+}
+.rarking{
+  margin-right: 24rpx;
+  text-align: center;
+  width: 56rpx;
+}
+.score{
+  width: 300rpx;
+  position: absolute;
+  margin-left: 190rpx;
+  display: flex;
+  justify-content: space-between;
+  right:24rpx;
+}
+.container-rank{
+  height: calc(100vh -  622rpx);
+  overflow: scroll;
+}
+.index-rack-item{
+  padding: 24rpx;
+  display: flex;
+  align-items: center;
+  height: 104rpx;
+  position: relative;
+  box-sizing: border-box;
+}
+.scholl-icon{
+    width: 72rpx;
+    height: 72rpx;
+}
+.team-info{
+  margin-left: 8rpx;
+}
+.scholl-name-rank{
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: normal;
+  padding: 5rpx;
+  color: rgba(24, 24, 24, 0.9);
+}
+.team-name{
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: normal;
+  color: rgba(51, 51, 51, 0.9);
+}
+.padingg{
+  height: 100rpx;
+  width: 100%;
+}
+.score view{
+  width: 120rpx;
+  text-align: center;
+}
